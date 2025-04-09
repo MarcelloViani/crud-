@@ -1,0 +1,172 @@
+body{
+    height: 100%;
+    width: 98%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.container{
+    height: 100vh;
+    width: 25%;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+p{
+    font-size: 50px;
+    font-weight: bolder;
+    color: rgb(184, 182, 102);
+}
+
+
+.decoration{
+    font-size: 20px;
+    font-weight: bold;
+    color: rgba(184, 183, 102, 0.529);
+    margin-top: 100px;
+}
+
+.createTheUser{
+    height: 95%;
+    width: 95%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#createUser{
+    border-radius: 5px;
+    background-color: rgb(85, 169, 52);
+    color: aliceblue;
+    border: none;
+}
+
+#createUser:hover{
+    background-color: rgb(55, 126, 24);
+}
+
+.theCrud{
+    height: 100vh;
+    width: 75%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    overflow: hidden;
+}
+
+.crud{
+    height: 95%;
+    width: 95%;
+    overflow-y: auto;
+}
+
+section{
+    height: 5%;
+    width: 100%;
+    color: #171717c2;
+    font-size: 30px;
+    font-weight: bolder
+}
+
+table{
+    width: 100%;
+    background-color: white;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+tr:hover{
+    background-color: rgb(214, 211, 211);
+}
+
+.editData{
+    background-color: rgb(243, 149, 62);
+    color: aliceblue;
+    border: none;
+    height: 25px;
+    width: 65px;
+    margin-left: 7.5px; 
+}
+
+.deleteRow{
+    background-color: rgb(243, 62, 62);
+    color: aliceblue;
+    border: none;
+    height: 25px;
+    width: 65px;
+    margin-left: 7.5px; 
+}
+
+#edit:hover{
+    background-color: rgb(167, 104, 21);
+}
+
+#delete:hover{
+    background-color: rgb(148, 22, 22);
+}
+
+thead{
+    border-bottom: 1.75px grey solid;
+}
+
+td{
+    color: #171717;
+    padding: 20px;
+    font-size: 20px;
+    border-bottom: 1.25px silver solid;
+}
+
+td input{
+    height: 15px;
+    width: 70px;
+    display: none;    
+    font-size: 15px;
+}
+
+.actionsButtons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.editRow input{
+    display: block;
+}
+
+.editRow span{
+    display: none;
+}
+
+.saveUser{
+    display: none;
+    background-color: rgb(40, 163, 46);
+    color: aliceblue;
+    border: none;
+    height: 25px;
+    width: 65px;
+    margin-left: 7.5px;
+}
+
+.editRow .editData{
+    display: none;
+}
+
+.editRow .saveUser{
+    display: block;
+}
+
+
+
+
+
+
+
+
