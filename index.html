@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="design.css">
+    <title>Crud</title>
+</head>
+<body>
+    <div class="container">
+        <div class="createTheUser">
+            <p>CUSTOMER DATA</p>
+            <span>Introduce tu nombre
+                <input id="mainName" type="text" placeholder="Name">
+            </span>
+            <span>Introduce tu apellido
+                <input id="mainSurname" type="text" placeholder="Surname">
+            </span>
+            <span>Número de teléfono
+                <input id="mainPhoneNumber" type="text" placeholder="Phone number">
+            </span>
+            <span>Introduce tu género
+                <input id="mainGender" type="text" placeholder="Gender">
+            </span>
+            <span>Crea tu usuario
+                <button id="createUser">Create User</button>
+            </span>
+            <p class="decoration">SEE ALL THE DATA HERE</p>
+        </div>
+    </div>
+    <div class="theCrud">
+        <div class="crud">
+            <section>CRUD Database</section>
+            <table id="userTable">
+                <thead>
+                    <tr>
+                        <td>Nombre</td>
+                        <td>Apellido</td>
+                        <td>Telefono</td>
+                        <td>Gender</td>
+                        <td>Actions</td>
+                    </tr>
+                </thead>
+                <tbody>
+        
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
